@@ -1,0 +1,16 @@
+data/
+dataset/
+runs/
+analysis/
+figures/
+__pycache__/
+*.pyc
+
+# draf naskah: tidak dipublikasikan
+manuscript/
+
+# hasil training dan log
+*.pt
+*.pth
+*.log
+.vscode/

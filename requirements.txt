@@ -1,0 +1,11 @@
+# Pasang PyTorch versi CUDA lebih dulu (lihat https://pytorch.org), mis.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1
+torchgeo>=0.5        # pakai versi yang SAMA dengan eksperimen lama, catat versinya di paper
+timm>=0.9
+numpy
+pandas
+scipy
+statsmodels          # ANOVA fase 5
+matplotlib
+tabulate             # tabel markdown di analyze.py
